@@ -40,12 +40,12 @@ const Index = ({ posts }) => (
   </>
 );
 
-Index.getInitialProps = async function() {
+Index.getInitialProps = async function () {
   const fetchPosts = await fetch("https://jsonplaceholder.typicode.com/posts");
   const posts = await fetchPosts.json();
 
   return {
-    posts
+    posts,
   };
 };
 

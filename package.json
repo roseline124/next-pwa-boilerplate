@@ -4,10 +4,11 @@
   "description": "Start your progressive web app off with a perfect Google Lighthouse score.",
   "main": "server/index.js",
   "scripts": {
-    "build": "next build",
+    "build": "next build && next export",
     "deploy": "now --target production",
     "dev": "next",
-    "start": "next start"
+    "start": "next start",
+    "ionic:build": "yarn build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,10 @@
   },
   "homepage": "https://next-pwa-boilerplate.now.sh",
   "dependencies": {
+    "@capacitor/android": "2.2.0",
+    "@capacitor/core": "2.2.0",
+    "@capacitor/ios": "2.2.0",
+    "ionic": "^5.4.16",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.0.2",
     "next-offline": "^4.0.2",
@@ -29,6 +34,8 @@
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.10.6"
+    "@capacitor/cli": "2.2.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "react-scripts": "3.4.1"
   }
 }
