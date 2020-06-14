@@ -1,0 +1,24 @@
+{
+  "packageId": "app.vercel.roseline124_next_pwa_boilerplate_oq3l.twa",
+  "host": "roseline124-next-pwa-boilerplate-oq3l.vercel.app",
+  "name": "Next PWA Boilerplate",
+  "launcherName": "Next PWA",
+  "themeColor": "#FFFFFF",
+  "navigationColor": "#000000",
+  "backgroundColor": "#000000",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://roseline124-next-pwa-boilerplate-oq3l.vercel.app/static/graphics/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "alias": "android",
+    "path": "./android.keystore"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://roseline124-next-pwa-boilerplate-oq3l.vercel.app/static/manifest.json",
+  "fallbackType": "customtabs",
+  "appVersion": "1"
+}

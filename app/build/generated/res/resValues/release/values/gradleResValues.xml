@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="appName" translatable="false">Next PWA Boilerplate</string>
+    <string name="assetStatements" translatable="false">[{ \"relation\": [\"delegate_permission/common.handle_all_urls\"],\"target\": {\"namespace\": \"web\", \"site\": \"https://roseline124-next-pwa-boilerplate-oq3l.vercel.app\"}}]</string>
+
+    <color name="backgroundColor">#000000</color>
+    <color name="colorPrimary">#FFFFFF</color>
+
+    <bool name="enableNotification">false</bool>
+
+    <string name="fallbackType" translatable="false">customtabs</string>
+    <string name="generatorApp" translatable="false">bubblewrap-cli</string>
+    <string name="hostName" translatable="false">roseline124-next-pwa-boilerplate-oq3l.vercel.app</string>
+    <string name="launchUrl" translatable="false">https://roseline124-next-pwa-boilerplate-oq3l.vercel.app/</string>
+    <string name="launcherName" translatable="false">Next PWA</string>
+
+    <color name="navigationColor">#000000</color>
+
+    <string name="providerAuthority" translatable="false">app.vercel.roseline124_next_pwa_boilerplate_oq3l.twa.fileprovider</string>
+
+    <integer name="splashScreenFadeOutDuration">300</integer>
+
+    <string name="webManifestUrl" translatable="false">https://roseline124-next-pwa-boilerplate-oq3l.vercel.app/static/manifest.json</string>
+
+</resources>
